@@ -1,0 +1,9 @@
+[Unit]
+Description=Makes rsync mirrors on external storage periodically
+
+[Install]
+WantedBy=default.target
+
+[Service]
+Type=exec
+ExecStart=/home/ronan/Projets/sauve/sauve
